@@ -1,0 +1,146 @@
+nav a:link {
+	color: #FFD51C;
+}
+nav a:visited {
+	color: #FFD51C;
+}
+nav a:hover {
+	color: #58679a;
+}
+nav a:active {
+	color: #58679a;
+}
+nav a {
+	text-align: left;
+	font-size: 1.75em;
+	line-height: 4.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: inherit;
+	justify-content: left;
+	letter-spacing: .35em;
+}
+nav a {
+	list-style: none;
+	padding-left: 0em;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: left;
+}
+a:link {
+	color: #FFD51C;
+}
+a:visited {
+	color: #FFD51C;
+}
+a:hover {
+	color: #58679a;
+}
+a:active {
+	color: #58679a;
+}
+aside {
+	text-align: center;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 25rem;
+	max-width: 85rem;
+	background-color: #d39892;
+	padding: 1em;
+}
+#container>header1 {
+	grid-area: header1;
+}
+#container>header2 {
+	grid-area: header2;
+}
+#container>header {
+	grid-area: header;
+}
+#container>nav {
+	grid-area: nav;
+}
+#container>article {
+	grid-area: article;
+}
+#container>aside {
+	grid-area: aside;
+}
+#container>footer {
+	grid-area: footer;
+}
+#container {
+	display: grid;
+	grid-template-columns: 15% 50% 35%;
+	grid-template-rows: auto;
+	grid-template-areas: "header2 header1 header1" 
+                        "header header header" 
+                        "nav aside article" 
+                        "footer footer footer";
+}
+body {
+	background-color: #d39892
+}
+article {
+	padding-left: 9em ;
+	margin-top: 1.25em;
+	background-color: #d39892;
+}
+article {
+	color: #FFD51C;
+	font-size: 1.2em;
+	line-height: 1.4;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+}
+header1 {
+	color: #FFD51C;
+	text-align: center;
+	letter-spacing: .35em;
+	font-size: 3.6em;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: inherit;
+    margin-right:4.5em
+}
+header {
+    color: #FFD51C;
+	text-align: center;
+	letter-spacing: .35em;
+	font-size: 1.35em;
+	font-family: 'Josefin Sans', sans-serif;
+    margin-right: 2.75em
+}
+header2 {
+    margin-left: 1em;
+    margin-top: -1.25em
+    
+}
+
+img {
+	width: 100%;
+}
+.image {
+	width: 5em;
+    text-align: center;
+}
+
+aside {
+	float: left;
+	width: 53em;
+	margin-right: 2em;
+	margin-top: 3.25em;
+	margin-left: -1em;
+	margin-bottom: 4em;
+}
+aside img {
+	width: 100%;
+}
+
+footer {
+    color: #FFD51C;
+	text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
